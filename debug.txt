@@ -1,0 +1,136 @@
+2025-12-24 10:06:58,036 - MainThread - awscli.clidriver - DEBUG - CLI version: aws-cli/2.31.7 Python/3.13.7 Windows/11 exe/AMD64
+2025-12-24 10:06:58,037 - MainThread - awscli.clidriver - DEBUG - Arguments entered to CLI: ['lambda', 'list-functions', '--region', 'ap-south-1', '--debug']
+2025-12-24 10:06:58,067 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function add_s3 at 0x000001DD432A4CC0>
+2025-12-24 10:06:58,067 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function add_ddb at 0x000001DD4307B7E0>
+2025-12-24 10:06:58,067 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <bound method BasicCommand.add_command of <class 'awscli.customizations.configure.configure.ConfigureCommand'>>
+2025-12-24 10:06:58,068 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function change_name at 0x000001DD42FD6FC0>
+2025-12-24 10:06:58,068 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function change_name at 0x000001DD42FD7F60>
+2025-12-24 10:06:58,068 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function add_history_commands at 0x000001DD431B2660>
+2025-12-24 10:06:58,068 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <bound method BasicCommand.add_command of <class 'awscli.customizations.devcommands.CLIDevCommand'>>
+2025-12-24 10:06:58,068 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <function add_waiters at 0x000001DD432B5440>
+2025-12-24 10:06:58,068 - MainThread - botocore.hooks - DEBUG - Event building-command-table.main: calling handler <bound method AliasSubCommandInjector.on_building_command_table of <awscli.alias.AliasSubCommandInjector object at 0x000001DD4334C590>>
+2025-12-24 10:06:58,069 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\data\cli.json
+2025-12-24 10:06:58,070 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_types at 0x000001DD431A1DA0>
+2025-12-24 10:06:58,070 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function no_sign_request at 0x000001DD431A20C0>
+2025-12-24 10:06:58,070 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_verify_ssl at 0x000001DD431A2020>
+2025-12-24 10:06:58,070 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_cli_read_timeout at 0x000001DD431A2200>
+2025-12-24 10:06:58,070 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <function resolve_cli_connect_timeout at 0x000001DD431A2160>
+2025-12-24 10:06:58,070 - MainThread - botocore.hooks - DEBUG - Event top-level-args-parsed: calling handler <built-in method update of dict object at 0x000001DD43348E00>
+2025-12-24 10:06:58,070 - MainThread - botocore.session - DEBUG - Setting config variable for region to 'ap-south-1'
+2025-12-24 10:06:58,071 - MainThread - awscli.clidriver - DEBUG - CLI version: aws-cli/2.31.7 Python/3.13.7 Windows/11 exe/AMD64
+2025-12-24 10:06:58,071 - MainThread - awscli.clidriver - DEBUG - Arguments entered to CLI: ['lambda', 'list-functions', '--region', 'ap-south-1', '--debug']
+2025-12-24 10:06:58,071 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function add_timestamp_parser at 0x000001DD432B4040>
+2025-12-24 10:06:58,071 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function register_uri_param_handler at 0x000001DD421605E0>
+2025-12-24 10:06:58,071 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function add_binary_formatter at 0x000001DD42DDC2C0>
+2025-12-24 10:06:58,071 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function no_pager_handler at 0x000001DD42B1A480>
+2025-12-24 10:06:58,072 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function inject_assume_role_provider_cache at 0x000001DD42DB77E0>
+2025-12-24 10:06:58,073 - MainThread - botocore.utils - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2025-12-24 10:06:58,074 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function attach_history_handler at 0x000001DD431B0F40>
+2025-12-24 10:06:58,074 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler <function inject_json_file_cache at 0x000001DD43069EE0>
+2025-12-24 10:06:58,105 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\lambda\2015-03-31\service-2.json
+2025-12-24 10:06:58,111 - MainThread - botocore.hooks - DEBUG - Event building-command-table.lambda: calling handler functools.partial(<function _remove_commands at 0x000001DD431F9DA0>, commands_to_remove=['invoke-with-response-stream'])
+2025-12-24 10:06:58,111 - MainThread - awscli.customizations.removals - DEBUG - Removing operation: invoke-with-response-stream
+2025-12-24 10:06:58,111 - MainThread - botocore.hooks - DEBUG - Event building-command-table.lambda: calling handler <function _add_wizard_command at 0x000001DD43313560>
+2025-12-24 10:06:58,112 - MainThread - botocore.hooks - DEBUG - Event building-command-table.lambda: calling handler <function add_waiters at 0x000001DD432B5440>
+2025-12-24 10:06:58,142 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\lambda\2015-03-31\waiters-2.json
+2025-12-24 10:06:58,142 - MainThread - botocore.hooks - DEBUG - Event building-command-table.lambda: calling handler <bound method AliasSubCommandInjector.on_building_command_table of <awscli.alias.AliasSubCommandInjector object at 0x000001DD4334C590>>
+2025-12-24 10:06:58,143 - MainThread - awscli.clidriver - DEBUG - OrderedDict({'master-region': <awscli.arguments.CLIArgument object at 0x000001DD4449E660>, 'function-version': <awscli.arguments.CLIArgument object at 0x000001DD444A87D0>, 'marker': <awscli.arguments.CLIArgument object at 0x000001DD444A8910>, 'max-items': <awscli.arguments.CLIArgument object at 0x000001DD444AC050>})
+2025-12-24 10:06:58,143 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.lambda.list-functions: calling handler <function add_streaming_output_arg at 0x000001DD432A76A0>
+2025-12-24 10:06:58,143 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.lambda.list-functions: calling handler <function add_cli_input_json at 0x000001DD42DDCB80>
+2025-12-24 10:06:58,143 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.lambda.list-functions: calling handler <function add_cli_input_yaml at 0x000001DD42DDD940>
+2025-12-24 10:06:58,143 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.lambda.list-functions: calling handler <function unify_paging_params at 0x000001DD43094040>
+2025-12-24 10:06:58,179 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\lambda\2015-03-31\paginators-1.json
+2025-12-24 10:06:58,180 - MainThread - awscli.customizations.paginate - DEBUG - Modifying paging parameters for operation: ListFunctions
+2025-12-24 10:06:58,180 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.lambda.list-functions: calling handler <function add_generate_skeleton at 0x000001DD431A0680>
+2025-12-24 10:06:58,180 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.lambda.list-functions: calling handler <bound method OverrideRequiredArgsArgument.override_required_args of <awscli.customizations.cliinput.CliInputJSONArgument object at 0x000001DD4449E900>>
+2025-12-24 10:06:58,180 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.lambda.list-functions: calling handler <bound method OverrideRequiredArgsArgument.override_required_args of <awscli.customizations.cliinput.CliInputYAMLArgument object at 0x000001DD4449EA50>>
+2025-12-24 10:06:58,180 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.lambda.list-functions: calling handler <bound method GenerateCliSkeletonArgument.override_required_args of <awscli.customizations.generatecliskeleton.GenerateCliSkeletonArgument object at 0x000001DD4449EBA0>>
+2025-12-24 10:06:58,180 - MainThread - botocore.hooks - DEBUG - Event building-command-table.lambda_list-functions: calling handler <function add_waiters at 0x000001DD432B5440>
+2025-12-24 10:06:58,180 - MainThread - botocore.hooks - DEBUG - Event building-command-table.lambda_list-functions: calling handler <bound method AliasSubCommandInjector.on_building_command_table of <awscli.alias.AliasSubCommandInjector object at 0x000001DD4334C590>>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event operation-args-parsed.lambda.list-functions: calling handler functools.partial(<function check_should_enable_pagination at 0x000001DD43094180>, ['marker', 'max-items'], {'max-items': <awscli.arguments.CLIArgument object at 0x000001DD444AC050>}, OrderedDict({'master-region': <awscli.arguments.CLIArgument object at 0x000001DD4449E660>, 'function-version': <awscli.arguments.CLIArgument object at 0x000001DD444A87D0>, 'marker': <awscli.arguments.CLIArgument object at 0x000001DD444A8910>, 'max-items': <awscli.customizations.paginate.PageArgument object at 0x000001DD444A8E10>, 'cli-input-json': <awscli.customizations.cliinput.CliInputJSONArgument object at 0x000001DD4449E900>, 'cli-input-yaml': <awscli.customizations.cliinput.CliInputYAMLArgument object at 0x000001DD4449EA50>, 'starting-token': <awscli.customizations.paginate.PageArgument object at 0x000001DD4449ECF0>, 'page-size': <awscli.customizations.paginate.PageArgument object at 0x000001DD444A8B90>, 'generate-cli-skeleton': <awscli.customizations.generatecliskeleton.GenerateCliSkeletonArgument object at 0x000001DD4449EBA0>}))
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.master-region: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.function-version: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.marker: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.max-items: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.cli-input-json: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.cli-input-yaml: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.starting-token: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.page-size: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.lambda.list-functions.generate-cli-skeleton: calling handler <awscli.paramfile.URIArgumentHandler object at 0x000001DD4334D010>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event calling-command.lambda.list-functions: calling handler <bound method CliInputArgument.add_to_call_parameters of <awscli.customizations.cliinput.CliInputJSONArgument object at 0x000001DD4449E900>>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event calling-command.lambda.list-functions: calling handler <bound method CliInputArgument.add_to_call_parameters of <awscli.customizations.cliinput.CliInputYAMLArgument object at 0x000001DD4449EA50>>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event calling-command.lambda.list-functions: calling handler <bound method GenerateCliSkeletonArgument.generate_skeleton of <awscli.customizations.generatecliskeleton.GenerateCliSkeletonArgument object at 0x000001DD4449EBA0>>
+2025-12-24 10:06:58,181 - MainThread - botocore.hooks - DEBUG - Event calling-command.lambda.list-functions: calling handler functools.partial(<function check_should_enable_pagination_call_parameters at 0x000001DD430945E0>, ['Marker', 'MaxItems'])
+2025-12-24 10:06:58,182 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: env
+2025-12-24 10:06:58,182 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: assume-role
+2025-12-24 10:06:58,182 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2025-12-24 10:06:58,182 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: sso
+2025-12-24 10:06:58,182 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: shared-credentials-file
+2025-12-24 10:06:58,182 - MainThread - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-24 10:06:58,184 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\endpoints.json
+2025-12-24 10:06:58,197 - MainThread - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x000001DD4201D760>
+2025-12-24 10:06:58,228 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\lambda\2015-03-31\endpoint-rule-set-1.json
+2025-12-24 10:06:58,228 - MainThread - botocore.loaders - DEBUG - Loading JSON file: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\data\partitions.json
+2025-12-24 10:06:58,229 - MainThread - botocore.hooks - DEBUG - Event creating-client-class.lambda: calling handler <function add_generate_presigned_url at 0x000001DD41F84FE0>
+2025-12-24 10:06:58,229 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for lambda via: environment_service
+2025-12-24 10:06:58,229 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for lambda via: environment_global
+2025-12-24 10:06:58,229 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for lambda via: config_service
+2025-12-24 10:06:58,229 - MainThread - botocore.configprovider - DEBUG - Looking for endpoint for lambda via: config_global
+2025-12-24 10:06:58,229 - MainThread - botocore.configprovider - DEBUG - No configured endpoint found.
+2025-12-24 10:06:58,231 - MainThread - botocore.endpoint - DEBUG - Setting lambda timeout as (60, 60)
+2025-12-24 10:06:58,232 - MainThread - botocore.hooks - DEBUG - Event provide-client-params.lambda.ListFunctions: calling handler <function base64_decode_input_blobs at 0x000001DD42DDC360>
+2025-12-24 10:06:58,232 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.lambda.ListFunctions: calling handler <function generate_idempotent_uuid at 0x000001DD4201DB20>
+2025-12-24 10:06:58,232 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.lambda.ListFunctions: calling handler <function _handle_request_validation_mode_member at 0x000001DD42038540>
+2025-12-24 10:06:58,232 - MainThread - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'ap-south-1', 'UseDualStack': False, 'UseFIPS': False}
+2025-12-24 10:06:58,232 - MainThread - botocore.regions - DEBUG - Endpoint provider result: https://lambda.ap-south-1.amazonaws.com
+2025-12-24 10:06:58,233 - MainThread - botocore.hooks - DEBUG - Event before-call.lambda.ListFunctions: calling handler <function inject_api_version_header_if_needed at 0x000001DD4201F600>
+2025-12-24 10:06:58,233 - MainThread - botocore.endpoint - DEBUG - Making request for OperationModel(name=ListFunctions) with params: {'url_path': '/2015-03-31/functions', 'query_string': {}, 'method': 'GET', 'headers': {'User-Agent': 'aws-cli/2.31.7 md/awscrt#0.27.6 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.13.7 md/pyimpl#CPython m/Z,n,C,E,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#lambda.list-functions'}, 'body': b'', 'url': 'https://lambda.ap-south-1.amazonaws.com/2015-03-31/functions', 'context': {'client_region': 'ap-south-1', 'client_config': <botocore.config.Config object at 0x000001DD444A96D0>, 'has_streaming_input': False, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2025-12-24 10:06:58,233 - MainThread - botocore.hooks - DEBUG - Event request-created.lambda.ListFunctions: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x000001DD4449FB60>>
+2025-12-24 10:06:58,233 - MainThread - botocore.hooks - DEBUG - Event choose-signer.lambda.ListFunctions: calling handler <function set_operation_specific_signer at 0x000001DD4201D940>
+2025-12-24 10:06:58,233 - MainThread - botocore.hooks - DEBUG - Event choose-signer.lambda.ListFunctions: calling handler <function _set_auth_scheme_preference_signer at 0x000001DD420385E0>
+2025-12-24 10:06:58,233 - MainThread - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2025-12-24 10:06:58,233 - MainThread - botocore.auth - DEBUG - CanonicalRequest:
+GET
+/2015-03-31/functions
+
+host:lambda.ap-south-1.amazonaws.com
+x-amz-date:20251224T043658Z
+
+host;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-24 10:06:58,233 - MainThread - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20251224T043658Z
+20251224/ap-south-1/lambda/aws4_request
+576f8e8ed0f4bf126cfb142892fbb3a294f7e28dbdfa642f1c573d1a5a35c65b
+2025-12-24 10:06:58,233 - MainThread - botocore.auth - DEBUG - Signature:
+9be34d3262f80806df9c2b08e49ad1ef24730e94275a7f0ba7130c7559bb231a
+2025-12-24 10:06:58,233 - MainThread - botocore.hooks - DEBUG - Event request-created.lambda.ListFunctions: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x000001DD444AA990>>
+2025-12-24 10:06:58,234 - MainThread - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=False, method=GET, url=https://lambda.ap-south-1.amazonaws.com/2015-03-31/functions, headers={'User-Agent': b'aws-cli/2.31.7 md/awscrt#0.27.6 ua/2.1 os/windows#11 md/arch#amd64 lang/python#3.13.7 md/pyimpl#CPython m/Z,n,C,E,b cfg/retry-mode#standard md/installer#exe md/prompt#off md/command#lambda.list-functions', 'X-Amz-Date': b'20251224T043658Z', 'Authorization': b'AWS4-HMAC-SHA256 Credential=AKIAUAVB7OQWABSCY5D7/20251224/ap-south-1/lambda/aws4_request, SignedHeaders=host;x-amz-date, Signature=9be34d3262f80806df9c2b08e49ad1ef24730e94275a7f0ba7130c7559bb231a'}>
+2025-12-24 10:06:58,234 - MainThread - botocore.httpsession - DEBUG - Certificate path: C:\Program Files\Amazon\AWSCLIV2\awscli\botocore\cacert.pem
+2025-12-24 10:06:58,234 - MainThread - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): lambda.ap-south-1.amazonaws.com:443
+2025-12-24 10:06:58,718 - MainThread - urllib3.connectionpool - DEBUG - https://lambda.ap-south-1.amazonaws.com:443 "GET /2015-03-31/functions HTTP/1.1" 403 16
+2025-12-24 10:06:58,718 - MainThread - botocore.parsers - DEBUG - Response headers: {'Date': 'Wed, 24 Dec 2025 04:37:01 GMT', 'Content-Type': 'application/json', 'Content-Length': '16', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'ee55d8d4-323e-4549-bcfd-574e8ee92bfe', 'x-amzn-ErrorType': 'AccessDeniedException'}
+2025-12-24 10:06:58,718 - MainThread - botocore.parsers - DEBUG - Response body:
+b'{"Message":null}'
+2025-12-24 10:06:58,719 - MainThread - botocore.hooks - DEBUG - Event needs-retry.lambda.ListFunctions: calling handler <bound method RetryHandler.needs_retry of <botocore.retries.standard.RetryHandler object at 0x000001DD44D4A510>>
+2025-12-24 10:06:58,720 - MainThread - botocore.retries.standard - DEBUG - Not retrying request.
+2025-12-24 10:06:58,720 - MainThread - botocore.hooks - DEBUG - Event after-call.lambda.ListFunctions: calling handler <bound method RetryQuotaChecker.release_retry_quota of <botocore.retries.standard.RetryQuotaChecker object at 0x000001DD44D49400>>
+2025-12-24 10:06:58,720 - MainThread - awscli.clidriver - DEBUG - Exception caught in main()
+Traceback (most recent call last):
+  File "awscli\clidriver.py", line 530, in main
+  File "awscli\clidriver.py", line 667, in __call__
+  File "awscli\clidriver.py", line 881, in __call__
+  File "awscli\clidriver.py", line 1020, in invoke
+  File "awscli\clidriver.py", line 1043, in _display_response
+  File "awscli\formatter.py", line 76, in __call__
+  File "awscli\botocore\paginate.py", line 483, in build_full_result
+  File "awscli\botocore\paginate.py", line 267, in __iter__
+  File "awscli\botocore\context.py", line 124, in wrapper
+  File "awscli\botocore\paginate.py", line 356, in _make_request
+  File "awscli\botocore\client.py", line 438, in _api_call
+  File "awscli\botocore\context.py", line 124, in wrapper
+  File "awscli\botocore\client.py", line 907, in _make_api_call
+botocore.exceptions.ClientError: An error occurred (AccessDeniedException) when calling the ListFunctions operation: None
+
+An error occurred (AccessDeniedException) when calling the ListFunctions operation: None
