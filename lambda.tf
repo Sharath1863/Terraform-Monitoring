@@ -3,10 +3,10 @@ resource "aws_lambda_function" "central_monitor" {
   runtime       = "python3.10"
   handler       = "index.lambda_handler"
   role          = aws_iam_role.lambda_role.arn
-  filename      = "lambda.zip"
+  filename      = "lambda/lambda.zip"
   timeout       = 15
 
-  source_code_hash = filebase64sha256("lambda.zip")
+  source_code_hash = filebase64sha256("lambda/lambda.zip")
 
   depends_on = [
     aws_iam_role_policy_attachment.basic
