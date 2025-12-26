@@ -11,11 +11,4 @@ resource "aws_lambda_function" "central_monitor" {
   depends_on = [
     aws_iam_role_policy_attachment.basic
   ]
-
-  environment {
-    variables = {
-      BOT_TOKEN = "8410052282:AAFIEF_fywv2kfP5agjYOvGWPETB93RCJm8"
-      CHAT_ID  = "1294991106"
-    }
-  }
 }
