@@ -23,7 +23,18 @@ PROJECTS = [
     {
         "name": "Onstru",
         "url": "https://onstru.com/health"
-    }
+    },
+    {
+        "name": "Expertinternal",
+        "url": "https://expertinternal.in/health"
+    },
+    {
+        "name": "Sitesync",
+        "url": "https://sitesync.site/health"
+    },
+    {
+        "name": "Flixa360",
+        "url": "https://flixa360.com/health"}
 ]
 
 # ===== SSM HELPERS =====
